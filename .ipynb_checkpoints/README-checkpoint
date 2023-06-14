@@ -1,0 +1,10 @@
+This project utilized the scPDB clean dataset from PUResnet.
+
+We prepared the dataset and test set in a residue-wise manner, and using the preprocessed data, we calculated the DCC of the dataset using the DCC validation method. We created the binding site binary targeting residues contained within 10Å from the center coordinates of the ligand.
+
+We can check the degree of DCC value when using the actual value, not the predicted one.
+
+scpdb_subset.zip (https://github.com/jivankandel/PUResNet/blob/main/scpdb_subset.zip)
+
+coach.zip (https://github.com/jivankandel/PUResNet/blob/main/coach.zip)
+BU48.zip (https://github.com/jivankandel/PUResNet/blob/main/BU48.zip)
